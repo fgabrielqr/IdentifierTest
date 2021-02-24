@@ -8,9 +8,9 @@ public class IdentifierMain {
 		}else {
 			Identifier id = new Identifier();
 			if(id.validateIdentifier(args[0])) {
-				System.out.println("Válido");
+				System.out.print("Válido");
 			}else {
-				System.out.println("Inválido");
+				System.out.print("Inválido");
 			}
 		}
 	}
